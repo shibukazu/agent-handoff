@@ -11,26 +11,23 @@ The tool does not try to migrate a full conversation. It writes `.handoff/curren
 
 ## Install
 
-From this repository:
+```sh
+npm install -g ccrelay
+```
+
+## Development
+
+Clone the repository and install locally:
 
 ```sh
 npm install -g .
 ```
 
-Or run directly:
+Or run directly without installing:
 
 ```sh
 npm run build
 node dist/bin.js --help
-```
-
-## Development
-
-The source is TypeScript under `src/`. Build output is written to `dist/`, and `package.json` exposes `dist/bin.js` as the executable.
-
-```sh
-npm run build
-npm run check
 ```
 
 ## Commands
