@@ -1,6 +1,6 @@
 # ccrelay
 
-`ccrelay` creates a repo-native handoff file so Claude Code and Codex can safely continue work from the same working tree.
+`ccrelay` creates a handoff file so Claude Code and Codex can safely continue work from the same working tree.
 
 The tool does not try to migrate a full conversation. It writes `.handoff/current.md` from:
 

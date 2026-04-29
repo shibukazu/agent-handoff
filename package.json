@@ -1,7 +1,7 @@
 {
   "name": "ccrelay",
-  "version": "0.1.2",
-  "description": "Repo-native handoff CLI for moving work between coding agents.",
+  "version": "0.1.0",
+  "description": "Handoff CLI for moving work between coding agents.",
   "type": "module",
   "bin": {
     "ccrelay": "./dist/bin.js"
