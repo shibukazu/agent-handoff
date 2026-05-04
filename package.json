@@ -3,6 +3,14 @@
   "version": "0.2.1",
   "description": "Handoff CLI for moving work between coding agents.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibukazu/ccrelay.git"
+  },
+  "homepage": "https://github.com/shibukazu/ccrelay#readme",
+  "bugs": {
+    "url": "https://github.com/shibukazu/ccrelay/issues"
+  },
   "bin": {
     "ccrelay": "./dist/bin.js"
   },
